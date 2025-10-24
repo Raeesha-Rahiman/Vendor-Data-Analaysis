@@ -30,26 +30,28 @@ Power BI (Interactive Visualizations)
 📂 Vendor-Data-Analysis
 │
 ├── 📁 data/
-│ ├── purchases.csv
-│ ├── purchase_prices.csv
-│ ├── vendor_invoice.csv
-│ └── sales.csv
+│   ├── purchases.csv
+│   ├── purchase_prices.csv
+│   ├── vendor_invoice.csv
+│   └── sales.csv
 │
 ├── 📁 sql/
-│ ├── data_ingestion.sql
-│ ├── data_cleaning_etl.sql
-│ └── kpi_calculation_queries.sql
+│   ├── data_ingestion.sql
+│   ├── data_cleaning_etl.sql
+│   └── kpi_calculation_queries.sql
 │
 ├── 📁 notebooks/
-│ └── vendor_performance_analysis.ipynb ← main Jupyter notebook
+│   └── vendor_performance_analysis.ipynb  ← main Jupyter notebook
 │
 ├── 📁 visuals/
-│ ├── vendor_sales_vs_freight.png
-│ ├── top_brands_chart.png
-│ └── PowerBI_Dashboard.pbix
+│   ├── vendor_sales_vs_freight.png
+│   ├── top_brands_chart.png
+│   └── PowerBI_Dashboard.pbix
 │
 ├── requirements.txt
 └── README.md
+
+
 ## 🔄 Workflow Description
 
 | Step | Stage | Tool | Description |
