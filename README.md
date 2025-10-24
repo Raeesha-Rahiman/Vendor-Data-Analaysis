@@ -26,6 +26,7 @@ Python (Pandas, Matplotlib, Seaborn, SciPy)
 Power BI (Interactive Visualizations)
 
 ## Project Structure 
+```
 
 📂 Vendor-Data-Analysis
 │
@@ -50,7 +51,7 @@ Power BI (Interactive Visualizations)
 │
 ├── requirements.txt
 └── README.md
-
+```
 
 ## 🔄 Workflow Description
 
