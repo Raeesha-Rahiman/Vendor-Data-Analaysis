@@ -1,16 +1,13 @@
 # Vendor Performance Analysis
 # Overview
-This project evaluates the performance of multiple vendors and provides insights into **sales prices, freight costs, and profitability**.  
-It involves **data extraction and transformation using SQL**, **data analysis and hypothesis testing in Python**, and **visualization in Power BI**.  
+This project aims to analyze and report on vendor performance using a complete data pipeline built with Python, MySQL, and Power BI. The project includes data extraction, transformation and analysis, and the creation of an interactive report for deep insights into vendor efficiency and compliance.
 
-The goal is to identify high-performing vendors, analyze freight impact on sales margins, and recommend strategies for cost optimization.
 
 
 ## 🎯 Objectives
-- Assess vendor performance based on sales and freight data.  
-- Understand the relationship between freight cost and sales price.  
-- Perform **hypothesis testing** to verify if freight significantly impacts total sales.  
-- Build an interactive **Power BI dashboard** for visualization and decision-making.
+Assess and compare vendor performance on key metrics.
+Identify top and low-performing vendors using visual analytics.
+Generate actionable insights to improve procurement and supply chain decisions.
 
 - ## 🗂️ Dataset Description
 | Table Name | Description |
