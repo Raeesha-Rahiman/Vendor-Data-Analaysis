@@ -5,9 +5,12 @@ This project aims to analyze and report on vendor performance using a complete d
 
 
 ## 🎯 Objectives
-Assess and compare vendor performance on key metrics.
-Identify top and low-performing vendors using visual analytics.
-Generate actionable insights to improve procurement and supply chain decisions.
+- Assess vendor performance based on sales, purchases, profit, and profit margin.
+- Identify top-performing and low-performing vendors.
+- Analyze brand-wise performance in terms of sales and profitability.
+- Understand trends in sales, revenue, and product performance.
+- Use statistical analysis (t-test) to check if profit margins vary significantly across vendor groups.
+- Build meaningful insights to support decision-making in vendor manageme
 
 - ## 🗂️ Dataset Description
 | Table Name | Description |
@@ -54,38 +57,16 @@ Power BI (Interactive Visualizations)
 
 | Step | Stage | Tool | Description |
 |------|--------|------|--------------|
-| **1. Data Loading** | Data files (CSV) were imported into SQL database | **SQL (MySQL / SQLite / PostgreSQL)** | Loaded all raw data tables 
+| **1. Data Loading** | Data files (CSV) were imported into MySQL database | **SQL (MySQL / SQLite / PostgreSQL)** | Loaded all raw data tables 
 | **2. Data Connection** | SQL–Python link created | **Python (SQLAlchemy)** | Created a **database engine** in Jupyter Notebook to connect Python with SQL for querying and ingestion. |
-| **3. Data Ingestion & ETL** | Transformation & Cleaning | **SQL** | Cleaned duplicates, handled null values, calculated freight %, and joined tables for unified dataset. |
+| **3. Data Ingestion & ETL** | Transformation & Cleaning | **SQL** | Cleaned duplicates, handled null values, calculated sales, purchase costs, profit margins, brand performance, and trends and joined tables for unified dataset. |
 | **4. Data Analysis** | Exploratory Data Analysis (EDA) | **Python + SQL in Jupyter** | Used `pandas`, `numpy`, and SQL queries for descriptive statistics and trend analysis. |
-| **5. Hypothesis Testing** | Statistical validation | **Python (scipy.stats)** | Performed hypothesis testing to evaluate if **freight costs significantly affect sales performance**. |
+| **5. Hypothesis Testing** | Statistical validation | **Python (scipy.stats)** | Performed hypothesis testing to evaluate Whether profit margins of top vendors are significantly different from low-performing vendors. |
 | **6. Visualization & Dashboard** | Business insights | **Power BI** | Designed an interactive dashboard highlighting vendor sales, freight %, and profitability comparison. |
 | **7. Reporting** | Documentation | **Markdown (README)** | Summarized insights, findings, and recommendations in this GitHub report. |
 
 
 
-## 📊 Key Insights
-
-1. **Top Vendors by Sales and Purchases**  
-   - Vendor A and Vendor B contribute the highest sales and purchase volumes.  
-   - These vendors are critical for revenue generation and procurement efficiency.
-
-2. **Brand Performance**  
-   - Brand X and Brand Y consistently achieve the highest sales across multiple vendors.  
-   - Highlighting top brands helps focus inventory and marketing strategies.
-
-3. **Freight Cost Analysis**  
-   - Vendors with higher freight percentages often show lower net profitability.  
-   - Optimizing freight cost can directly improve margins.
-
-4. **Profitability Trends**  
-   - Vendor-brand combinations with high sales but low freight show the best profitability.  
-   - This analysis identifies which vendors to prioritize for scale-up.
-
-5. **Statistical Insights (Hypothesis Testing)**  
-   - Freight cost has a measurable impact on sales performance (p-value < 0.05).  
-   - Data-driven decisions can be made to negotiate freight rates or adjust pricing strategies.
-  
 
 # Dashboard 
 
